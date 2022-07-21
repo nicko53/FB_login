@@ -1,0 +1,128 @@
+* {
+    font-family: SF Pro Display;
+}
+body {
+    height: 100%;
+    background-color: gainsboro;
+}
+.head {
+    border: 1px solid;
+    width: auto;
+    height: 3.5em;
+}
+
+.body {
+    border: 1px solid;
+    width: 100%;
+    height: 500px;
+    display: flex
+}
+
+.text {
+    border: 1px solid red;
+    height: 300px;
+    width:  50%;
+}
+
+.connect_text {
+    border: 1px salmon solid;
+    height: 300px;
+    width: 500px;
+    
+}
+
+.container {
+    border: 1px solid brown;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    border: 1px outset;
+    height: 80%;
+    width: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+
+    
+}
+
+.email  {
+    border: 6px solid red;
+    align-content: center;
+    font-size: 17px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.password {
+    border: 6px solid burlywood;
+    display: block;
+}
+
+.login_click {
+    border: 6px solid slateblue;
+    display: block;
+}
+
+.forgotpw {
+    border: 6px solid grey;
+    display: block;
+}
+
+.login_btn {
+    border: 6px solid hotpink;
+    display: block;
+}
+
+.page {
+    border: 6px solid royalblue;
+    display: block;
+}
+
+
+
+.footer {
+    border: 1px solid palegreen;
+    height: 3.5em;
+}
+
+#email, #password {
+    font-size: 20px;
+    padding: 14px 16px;
+    width: 330px;
+    outline-style: none;
+    background-color: white;
+}
+
+#login {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    text-decoration: white;
+    cursor: pointer;
+}
+
+#create_new {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    box-sizing: content-box;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
