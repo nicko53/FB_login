@@ -1,128 +1,101 @@
-* {
-    font-family: SF Pro Display;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
 }
-body {
-    height: 100%;
-    background-color: gainsboro;
-}
-.head {
-    border: 1px solid;
-    width: auto;
-    height: 3.5em;
-}
-
-.body {
-    border: 1px solid;
+body{
     width: 100%;
-    height: 500px;
-    display: flex
+    background-color: #f0f2f5;
 }
-
-.text {
-    border: 1px solid red;
+form{
+    background-color: #fff;
+    position: absolute;
+    width: 350px;
     height: 300px;
-    width:  50%;
-}
-
-.connect_text {
-    border: 1px salmon solid;
-    height: 300px;
-    width: 500px;
-    
-}
-
-.container {
-    border: 1px solid brown;
-    height: 100%;
-    width: 50%;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-}
-
-.login {
-    border: 1px outset;
-    height: 80%;
-    width: 50%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
     border-radius: 10px;
-
-    
+    box-shadow: 5px 5px 6px -7px;
 }
-
-.email  {
-    border: 6px solid red;
-    align-content: center;
-    font-size: 17px;
+input[type='text'], input[type=password]{
     display: block;
-    justify-content: center;
-    align-items: center;
-
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 250px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align:center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
 }
 
-.password {
-    border: 6px solid burlywood;
-    display: block;
-}
-
-.login_click {
-    border: 6px solid slateblue;
-    display: block;
-}
-
-.forgotpw {
-    border: 6px solid grey;
-    display: block;
-}
-
-.login_btn {
-    border: 6px solid hotpink;
-    display: block;
-}
-
-.page {
-    border: 6px solid royalblue;
-    display: block;
-}
-
-
-
-.footer {
-    border: 1px solid palegreen;
-    height: 3.5em;
-}
-
-#email, #password {
-    font-size: 20px;
-    padding: 14px 16px;
-    width: 330px;
-    outline-style: none;
-    background-color: white;
-}
-
-#login {
-    background-color: #1877f2;
+button{
     border: none;
-    border-radius: 6px;
-    font-size: 20px;
-    line-height: 48px;
-    padding: 0 16px;
-    width: 332px;
-    text-decoration: white;
+    background-color: #187FF2;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
     cursor: pointer;
 }
 
-#create_new {
-    border: none;
-    border-radius: 6px;
-    font-size: 17px;
-    line-height: 48px;
-    padding: 0 16px;
-    box-sizing: content-box;
+.f-pws{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    padding-left: 80px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+.btn2{
+    width: 180px;
+    font-size: 14px;
+    background-color: #42b72a;
     text-align: center;
-    text-shadow: none;
-    vertical-align: middle;
+}
+
+.sub-link h3{
+    width: 270px;
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI', Arial;
+    padding: 130px 890px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sub-link h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.f-container{
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 30vh;
+    font-family:'Segoe UI', Roboto, "san Francisco";
+}
+
+.f-container img{
+    width: 250px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 3px;
 }
